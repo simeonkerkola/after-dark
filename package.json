@@ -1,0 +1,22 @@
+{
+    "name": "after-dark",
+    "displayName": "after-dark",
+    "description": "Theme from the late night TV",
+    "version": "0.0.1",
+    "publisher": "ssmi",
+    "engines": {
+        "vscode": "^1.25.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "After Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/After Dark-color-theme.json"
+            }
+        ]
+    }
+}
