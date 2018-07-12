@@ -40,7 +40,7 @@
 		"editorGroupHeader.tabsBackground": "#0F131A",
 		"editorIndentGuide.background": "#ffffff4f",
 		"editorLineNumber.foreground": "#ffffff2f",
-		"editorActiveLineNumber.foreground": "#ffffff8c",
+		"editorLineNumber.activeForeground": "#ffffff8c",
 		"editorWhitespace.foreground": "#ffffff0e",
 		"editorHoverWidget.background": "#000000d2",
 		"editorHoverWidget.border": "#ffffffad",
@@ -89,7 +89,7 @@
 		"gitDecoration.modifiedResourceForeground": "#E0C084",
 		"gitDecoration.deletedResourceForeground": "#E0C084",
 		"gitDecoration.untrackedResourceForeground": "#75AC48d5",
-		"gitDecoration.conflictingResourceForeground": "#DB4E34d5",
+		"gitDecoration.conflictingResourceForeground": "#dd7d41d5",
 		"gitDecoration.ignoredResourceForeground": "#ffffff4f",
 		"gitDecoration.submoduleResourceForeground": "#ffffff8c",
 		"diffEditor.insertedTextBackground": "#00809B33",
@@ -281,7 +281,7 @@
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
-				"fontStyle": "normal",
+				"fontStyle": "",
 				"foreground": "#75AC48"
 			}
 		},
