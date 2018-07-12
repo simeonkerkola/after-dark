@@ -28,7 +28,7 @@
 		"editorBracketMatch.border": "#ffffff10",
 		"editorBracketMatch.background": "#ffffff10",
 		"editor.findMatchBackground": "#ffffff0e",
-		"editor.findMatchBorder": "#F7DA66",
+		"editor.findMatchBorder": "#E0C084",
 		"editor.findMatchHighlightBackground": "#ffffff0e",
 		"editor.findMatchHighlightBorder": "#ffffffad",
 		"editor.wordHighlightBackground": "#484e5b",
@@ -86,14 +86,14 @@
 		"titleBar.activeForeground": "#ffffffd0",
 		"titleBar.inactiveBackground": "#0F131A",
 		"titleBar.inactiveForeground": "#6B717D",
-		"gitDecoration.modifiedResourceForeground": "#dd7d41d5",
-		"gitDecoration.deletedResourceForeground": "#dd7d41d5",
+		"gitDecoration.modifiedResourceForeground": "#E0C084",
+		"gitDecoration.deletedResourceForeground": "#E0C084",
 		"gitDecoration.untrackedResourceForeground": "#75AC48d5",
 		"gitDecoration.conflictingResourceForeground": "#DB4E34d5",
 		"gitDecoration.ignoredResourceForeground": "#ffffff4f",
 		"gitDecoration.submoduleResourceForeground": "#ffffff8c",
 		"diffEditor.insertedTextBackground": "#00809B33",
-		"editorGutter.modifiedBackground": "#dd7d41d5",
+		"editorGutter.modifiedBackground": "#E0C084",
 		"editorGutter.addedBackground": "#75AC48d5",
 		"editorGutter.deletedBackground": "#DB4E34d5"
 	},
@@ -102,7 +102,7 @@
 			"name": "JavaScript this",
 			"scope": "variable.language.this.js",
 			"settings": {
-				"foreground": "#F7DA66",
+				"foreground": "#E0C084",
 				"fontStyle": "italic"
 			}
 		},
@@ -125,6 +125,13 @@
 			"scope": "keyword.control",
 			"settings": {
 				"foreground": "#BB7ED7"
+			}
+		},
+		{
+			"name": "Javascript the.last.propperty",
+			"scope": "support.variable.property.dom",
+			"settings": {
+				"foreground": "#D96759"
 			}
 		},
 		{
@@ -259,7 +266,7 @@
 				"keyword.other"
 			],
 			"settings": {
-				"foreground": "#F7DA66"
+				"foreground": "#E0C084"
 			}
 		},
 		{
@@ -291,7 +298,7 @@
 				"support.type.sys-types"
 			],
 			"settings": {
-				"foreground": "#F7DA66"
+				"foreground": "#E0C084"
 			}
 		},
 		{
@@ -421,7 +428,7 @@
 				"markup.changed"
 			],
 			"settings": {
-				"foreground": "#F7DA66"
+				"foreground": "#E0C084"
 			}
 		},
 		{
@@ -710,7 +717,7 @@
 		{
 			"scope": "token.warn-token",
 			"settings": {
-				"foreground": "#F7DA66"
+				"foreground": "#E0C084"
 			}
 		},
 		{
