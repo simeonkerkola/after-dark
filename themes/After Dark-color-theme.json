@@ -15,7 +15,7 @@
 		"debugToolBar.background": "#0F131A",
 		"dropdown.background": "#0F131A",
 		"dropdown.border": "#181A1F",
-		"editorError.foreground": "#e06c75",
+		"editorError.foreground": "#88abf9",
 		"editorIndentGuide.activeBackground": "#ffffffad",
 		"editorMarkerNavigation.background": "#0F131A",
 		"editorRuler.foreground": "#abb2bf26",
@@ -24,11 +24,11 @@
 		"editor.selectionHighlightBackground": "#ffffff0e",
 		"editor.selectionHighlightBorder": "#ffffffc9",
 		"editorCursor.background": "#ffffffc9",
-		"editorCursor.foreground": "#7ecec6",
+		"editorCursor.foreground": "#88abf9",
 		"editorBracketMatch.border": "#ffffff10",
 		"editorBracketMatch.background": "#ffffff10",
 		"editor.findMatchBackground": "#ffffff0e",
-		"editor.findMatchBorder": "#E0C084",
+		"editor.findMatchBorder": "#e8c37d",
 		"editor.findMatchHighlightBackground": "#ffffff0e",
 		"editor.findMatchHighlightBorder": "#ffffffad",
 		"editor.wordHighlightBackground": "#484e5b",
@@ -81,28 +81,31 @@
 		"terminal.ansiBlack": "#000000d2",
 		"terminal.ansiBlue": "#7ecec6",
 		"terminal.ansiGreen": "#98c379",
-		"terminal.ansiYellow": "#E0C084",
+		"terminal.ansiYellow": "#e8c37d",
 		"titleBar.activeBackground": "#0E131B",
 		"titleBar.activeForeground": "#ffffffc9",
 		"titleBar.inactiveBackground": "#0F131A",
 		"titleBar.inactiveForeground": "#6B717D",
-		"gitDecoration.modifiedResourceForeground": "#E0C084",
-		"gitDecoration.deletedResourceForeground": "#E0C084",
+		"gitDecoration.modifiedResourceForeground": "#e8c37d",
+		"gitDecoration.deletedResourceForeground": "#e8c37d",
 		"gitDecoration.untrackedResourceForeground": "#98c379d5",
 		"gitDecoration.conflictingResourceForeground": "#dd7d41d5",
 		"gitDecoration.ignoredResourceForeground": "#ffffff4f",
 		"gitDecoration.submoduleResourceForeground": "#ffffff8c",
 		"diffEditor.insertedTextBackground": "#00809B33",
-		"editorGutter.modifiedBackground": "#E0C084",
+		"editorGutter.modifiedBackground": "#e8c37d",
 		"editorGutter.addedBackground": "#98c379d5",
-		"editorGutter.deletedBackground": "#e06c75d5"
+		"editorGutter.deletedBackground": "#64c4bad5"
 	},
 	"tokenColors": [
+
+		///// Javascript
+		/////////////////////
 		{
 			"name": "JavaScript this",
 			"scope": "variable.language.this.js",
 			"settings": {
-				"foreground": "#E0C084",
+				"foreground": "#e8c37d",
 				"fontStyle": "italic"
 			}
 		},
@@ -148,8 +151,60 @@
 			"name": "JSX {}",
 			"scope": ["punctuation.section.embedded"],
 			"settings": {
-				"foreground": "#e06c75",
+				"foreground": "#88abf9",
 				"fontStyle": ""
+			}
+		},
+
+		///////// CSS
+		//////////////////////
+
+		{
+			"name": "CSS Class and Support",
+			"scope": [
+				"source.css support.type.property-name",
+				"source.sass support.type.property-name",
+				"source.scss support.type.property-name",
+				"source.less support.type.property-name",
+				"source.stylus support.type.property-name",
+				"source.postcss support.type.property-name"
+			],
+			"settings": {
+				"foreground": "#ffffffc9"
+			}
+		},
+		{
+			"name": "CSS elements",
+			"scope": [
+				"source.css entity.name.tag",
+				"source.sass entity.name.tag",
+				"source.scss entity.name.tag",
+				"source.less entity.name.tag",
+				"source.stylus entity.name.tag",
+				"source.postcss entity.name.tag"
+			],
+			"settings": {
+				"foreground": "#64c4ba",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "CSS Classes",
+			"scope": [
+				"entity.other.attribute-name.class"
+			],
+			"settings": {
+				"foreground": "#88abf9",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "CSS ID's",
+			"scope": [
+				"source.sass keyword.control",
+			],
+			"settings": {
+				"foreground": "#64c4ba"
 			}
 		},
 		{
@@ -167,7 +222,7 @@
 		{
 			"scope": "keyword.operator",
 			"settings": {
-				"foreground": "#7ecec6"
+				"foreground": "#DE8385"
 			}
 		},
 		{
@@ -178,7 +233,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#C5A2C9"
+				"foreground": "#ECBDCEb6"
 			}
 		},
 		{
@@ -188,7 +243,7 @@
 				"string constant.other.placeholder"
 			],
 			"settings": {
-				"foreground": "#e06c75"
+				"foreground": "#88abf9"
 			}
 		},
 		{
@@ -197,7 +252,7 @@
 				"constant.other.color", "variable.parameter"
 			],
 			"settings": {
-				"foreground": "#e06c75"
+				"foreground": "#88abf9"
 			}
 		},
 		{
@@ -247,7 +302,7 @@
 				"markup.deleted.git_gutter"
 			],
 			"settings": {
-				"foreground": "#88abf9"
+				"foreground": "#64c4ba"
 			}
 		},
 		{
@@ -260,7 +315,7 @@
 				"keyword.other.special-method"
 			],
 			"settings": {
-				"foreground": "#88abf9"
+				"foreground": "#64c4ba"
 			}
 		},
 		{
@@ -269,7 +324,7 @@
 				"meta.block variable.other"
 			],
 			"settings": {
-				"foreground": "#e06c75"
+				"foreground": "#88abf9"
 			}
 		},
 		{
@@ -279,7 +334,7 @@
 				"string.other.link"
 			],
 			"settings": {
-				"foreground": "#e06c75"
+				"foreground": "#88abf9"
 			}
 		},
 		{
@@ -294,7 +349,7 @@
 				"keyword.other"
 			],
 			"settings": {
-				"foreground": "#E0C084"
+				"foreground": "#e8c37d"
 			}
 		},
 		{
@@ -326,7 +381,7 @@
 				"support.type.sys-types"
 			],
 			"settings": {
-				"foreground": "#E0C084"
+				"foreground": "#e8c37d"
 			}
 		},
 		{
@@ -336,20 +391,6 @@
 			],
 			"settings": {
 				"foreground": "#C5A2C9"
-			}
-		},
-		{
-			"name": "CSS Class and Support",
-			"scope": [
-				"source.css support.type.property-name",
-				"source.sass support.type.property-name",
-				"source.scss support.type.property-name",
-				"source.less support.type.property-name",
-				"source.stylus support.type.property-name",
-				"source.postcss support.type.property-name"
-			],
-			"settings": {
-				"foreground": "#ffffffc9"
 			}
 		},
 		{
@@ -380,7 +421,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#88abf9"
+				"foreground": "#64c4ba"
 			}
 		},
 		{
@@ -390,7 +431,7 @@
 				"variable.function.constructor"
 			],
 			"settings": {
-				"foreground": "#88abf9"
+				"foreground": "#64c4ba"
 			}
 		},
 		{
@@ -412,24 +453,6 @@
 			"settings": {
 				"fontStyle": "italic",
 				"foreground": "#E6AC6F"
-			}
-		},
-		{
-			"name": "CSS Classes",
-			"scope": [
-				"entity.other.attribute-name.class"
-			],
-			"settings": {
-				"foreground": "#E6AC6F"
-			}
-		},
-		{
-			"name": "CSS ID's",
-			"scope": [
-				"source.sass keyword.control"
-			],
-			"settings": {
-				"foreground": "#88abf9"
 			}
 		},
 		{
@@ -456,7 +479,7 @@
 				"markup.changed"
 			],
 			"settings": {
-				"foreground": "#E0C084"
+				"foreground": "#e8c37d"
 			}
 		},
 		{
@@ -465,7 +488,7 @@
 				"string.regexp"
 			],
 			"settings": {
-				"foreground": "#88abf9"
+				"foreground": "#64c4ba"
 			}
 		},
 		{
@@ -474,7 +497,7 @@
 				"constant.character.escape"
 			],
 			"settings": {
-				"foreground": "#88abf9"
+				"foreground": "#64c4ba"
 			}
 		},
 		{
@@ -496,7 +519,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#88abf9"
+				"foreground": "#64c4ba"
 			}
 		},
 		{
@@ -515,7 +538,7 @@
 				"source.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#88abf9"
+				"foreground": "#64c4ba"
 			}
 		},
 		{
@@ -648,7 +671,7 @@
 				"string.other.link.title.markdown"
 			],
 			"settings": {
-				"foreground": "#88abf9"
+				"foreground": "#64c4ba"
 			}
 		},
 		{
@@ -739,19 +762,19 @@
 		{
 			"scope": "token.info-token",
 			"settings": {
-				"foreground": "#88abf9"
+				"foreground": "#64c4ba"
 			}
 		},
 		{
 			"scope": "token.warn-token",
 			"settings": {
-				"foreground": "#E0C084"
+				"foreground": "#e8c37d"
 			}
 		},
 		{
 			"scope": "token.error-token",
 			"settings": {
-				"foreground": "#e06c75"
+				"foreground": "#88abf9"
 			}
 		},
 		{
