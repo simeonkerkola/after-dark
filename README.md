@@ -1,6 +1,11 @@
-# After Dark
+# After Dark 
+[![Version](https://vsmarketplacebadge.apphb.com/version/ssmi.after-dark.svg)](https://marketplace.visualstudio.com/items?itemName=ssmi.after-dark)
+[![Downloads](https://img.shields.io/vscode-marketplace/d/ssmi.after-dark.svg)](https://marketplace.visualstudio.com/items?itemName=ssmi.after-dark)
 
-A Theme like a late night TV.
+## A Theme like a late night TV.
+Optimized for Javascript & React.
+
+The font I'm using is [Dank Mono](https://dank.sh/)
 
 ![Preview](preview.png)
 ## Installation

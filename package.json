@@ -2,7 +2,7 @@
     "name": "after-dark",
     "displayName": "After Dark",
     "description": "A Theme like a late night TV",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "publisher": "ssmi",
     "repository": {
         "type": "git",
@@ -16,7 +16,6 @@
         "Theme",
         "Dark Theme",
         "High Contrast",
-        "Highlighted",
         "Night Theme"
       ],
     "galleryBanner": {
