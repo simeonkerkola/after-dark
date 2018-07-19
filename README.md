@@ -15,4 +15,5 @@ The font I'm using is [Dank Mono](https://dank.sh/)
 3.  Click **Install** to install it
 4.  Click **Reload** to reload the Code
 5.  From the menu bar click: Code > Preferences > Color Theme > **After Dark**
+
 **Enjoy!**
