@@ -206,6 +206,71 @@
         "foreground": "#64c4ba"
       }
     },
+
+    /////////////////
+    // Clojure
+    {
+      "scope": "constant.keyword.clojure",
+      "settings": {
+        "foreground": "#E6A26F"
+      }
+    },
+    {
+      "name": "defn",
+      "scope": ["keyword.control.clojure"],
+      "settings": {
+        "foreground": "#ba7bcc",
+        "fontStyle": "italic"
+      }
+    },    
+    {
+      "name": "Clojure keywords",
+      "scope": ["meta.symbol.clojure"],
+      "settings": {
+        "foreground": "#ffffffc9",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "if etc",
+      "scope": ["storage.control.clojure"],
+      "settings": {
+        "foreground": "#ba7bcc",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "@ /",
+      "scope": ["meta.expression.clojure"],
+      "settings": {
+        "foreground": "#64c4ba",
+        "fontStyle": ""
+      }
+    },
+    {
+      "scope": ["entity.global.clojure"],
+      "settings": {
+        "foreground": "#ffffffc9",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "state/",
+      "scope": ["meta.symbol.namespace.clojure"],
+      "settings": {
+        "foreground": "#e8c37d",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "reset!",
+      "scope": ["entity.name.function.clojure"],
+      "settings": {
+        "foreground": "#88abf9",
+      }
+    },
+    ////////////////
+    // Global
     {
       "scope": "meta.objectliteral",
       "settings": {
