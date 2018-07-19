@@ -1,4 +1,4 @@
-# After Dark 
+# After Dark 🏮
 [![Version](https://vsmarketplacebadge.apphb.com/version/ssmi.after-dark.svg)](https://marketplace.visualstudio.com/items?itemName=ssmi.after-dark)
 [![Downloads](https://img.shields.io/vscode-marketplace/d/ssmi.after-dark.svg)](https://marketplace.visualstudio.com/items?itemName=ssmi.after-dark)
 
