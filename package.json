@@ -2,30 +2,30 @@
     "name": "after-dark",
     "displayName": "After Dark",
     "description": "A Theme like a late night TV",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "publisher": "ssmi",
     "repository": {
         "type": "git",
         "url": "https://github.com/sssmi/after-dark"
-      },
+    },
     "engines": {
         "vscode": "^1.25.0"
     },
     "keywords": [
         "After Dark",
-        "Theme",
+        "Clojure",
         "Dark Theme",
-        "High Contrast",
+        "Contrast",
         "Night Theme"
-      ],
+    ],
     "galleryBanner": {
         "color": "#0E131B",
         "theme": "dark"
-      },
+    },
     "categories": [
         "Themes"
     ],
-     "icon": "logo.png",
+    "icon": "logo.png",
     "contributes": {
         "themes": [
             {
