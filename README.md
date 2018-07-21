@@ -1,4 +1,5 @@
 # After Dark 🏮
+
 [![Version](https://vsmarketplacebadge.apphb.com/version/ssmi.after-dark.svg)](https://marketplace.visualstudio.com/items?itemName=ssmi.after-dark)
 [![Downloads](https://img.shields.io/vscode-marketplace/d/ssmi.after-dark.svg)](https://marketplace.visualstudio.com/items?itemName=ssmi.after-dark)
 
@@ -8,11 +9,13 @@ _Medium contrast, Vivid colors.
 Extra Dark backgound, Clear comments._
 
 Optimized for:
+
 - Javascript & React
 - Html & Css
-- Clojure & ClojureScript
+- Clojure & ClojureScript (_Currently working on this_)
 
 ![Preview](preview.png)
+
 ## Installation
 
 1.  Install [Visual Studio Code](https://code.visualstudio.com/)
