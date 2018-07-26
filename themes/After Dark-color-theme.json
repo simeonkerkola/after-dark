@@ -118,6 +118,22 @@
       }
     },
     {
+      "name": "DOM Variable",
+      "scope": "support.variable.dom.js",
+      "settings": {
+        "foreground": "#e8c37d",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "DOM Function",
+      "scope": "support.function.dom.js",
+      "settings": {
+        "foreground": "#64c4ba",
+        "fontStyle": ""
+      }
+    },
+    {
       "name": "JavaScript super",
       "scope": "variable.language.super",
       "settings": {
@@ -183,7 +199,7 @@
         "meta.tag"
       ],
       "settings": {
-        "foreground": "#ffffffd5"
+        "foreground": "#ffffffc5"
       }
     },
     {
@@ -455,8 +471,9 @@
       }
     },
     {
-      "name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
+      "name": "Number, Constant, Function Argument, Embedded",
       "scope": [
+        "variable.other.constant",
         "constant.numeric",
         "constant.language",
         "support.constant",
@@ -554,16 +571,7 @@
     {
       "name": "Attributes",
       "scope": [
-        "entity.other.attribute-name"
-      ],
-      "settings": {
-        "fontStyle": "italic",
-        "foreground": "#E6AC6F"
-      }
-    },
-    {
-      "name": "HTML Attributes",
-      "scope": [
+        "entity.other.attribute-name",
         "text.html.basic entity.other.attribute-name.html",
         "text.html.basic entity.other.attribute-name"
       ],
