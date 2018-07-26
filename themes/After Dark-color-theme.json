@@ -132,7 +132,7 @@
         "meta.brace.round"
       ],
       "settings": {
-        "foreground": "#ffffffc5",
+        "foreground": "#ffffff8c",
         "fontStyle": ""
       }
     },
@@ -175,6 +175,15 @@
       "settings": {
         "foreground": "#88abf9d5",
         "fontStyle": ""
+      }
+    },
+    {
+      "name": "JSX Text inside components",
+      "scope": [
+        "meta.tag"
+      ],
+      "settings": {
+        "foreground": "#ffffffd5"
       }
     },
     {
@@ -390,7 +399,6 @@
       "scope": [
         "constant.other.color",
         "punctuation",
-        "meta.tag",
         "punctuation.definition.tag",
         "punctuation.separator.inheritance.php",
         "punctuation.definition.tag.html",
@@ -400,7 +408,7 @@
         "keyword.other.substitution"
       ],
       "settings": {
-        "foreground": "#ffffffc5"
+        "foreground": "#ffffff8c"
       }
     },
     {
