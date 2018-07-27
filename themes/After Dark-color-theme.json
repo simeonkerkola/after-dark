@@ -207,21 +207,55 @@
     ///////// CSS
     //////////////////////
     {
-      "name": "CSS Class and Support",
+      "name": "CSS Support",
       "scope": [
         "source.css support.type.property-name",
         "source.sass support.type.property-name",
         "source.scss support.type.property-name",
         "source.less support.type.property-name",
         "source.stylus support.type.property-name",
-        "source.postcss support.type.property-name"
+        "source.postcss support.type.property-name",
+        "support.type.vendored.property-name"
       ],
       "settings": {
-        "foreground": "#ffffffc5"
+        "foreground": "#88abf9"
       }
     },
     {
-      "name": "CSS elements",
+      "name": "CSS @media",
+      "scope": [
+        "source.css keyword.control.at-rule",
+        "source.sass keyword.control.at-rule",
+        "source.scss keyword.control.at-rule",
+        "source.less keyword.control.at-rule",
+        "source.stylus keyword.control.at-rule",
+        "source.postcss keyword.control.at-rule"
+      ],
+      "settings": {
+        "foreground": "#ba7bcc"
+      }
+    },
+    {
+      "name": "CSS &__element",
+      "scope": [
+        "entity.other.attribute-name.parent-selector-suffix punctuation.definition.entity"
+      ],
+      "settings": {
+        "foreground": "#88abf9"
+      }
+    },
+    {
+      "name": "CSS 1.2rem",
+      "scope": [
+        "constant.numeric",
+        "keyword.other.unit",
+      ],
+      "settings": {
+        "foreground": "#E6A26F"
+      }
+    },
+    {
+      "name": "CSS &",
       "scope": [
         "source.css entity.name.tag",
         "source.sass entity.name.tag",
@@ -231,7 +265,52 @@
         "source.postcss entity.name.tag"
       ],
       "settings": {
-        "foreground": "#64c4ba",
+        "foreground": "#6c8093",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "CSS value/constant",
+      "scope": [
+        "source.css support.constant.property-value",
+        "source.sass support.constant.property-value",
+        "source.scss support.constant.property-value",
+        "source.less support.constant.property-value",
+        "source.stylus support.constant.property-value",
+        "source.postcss support.constant.property-value"
+      ],
+      "settings": {
+        "foreground": "#ffffffc5",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "CSS variable",
+      "scope": [
+        "source.css variable",
+        "source.sass variable",
+        "source.scss variable",
+        "source.less variable",
+        "source.stylus variable",
+        "source.postcss variable"
+      ],
+      "settings": {
+        "foreground": "#e16ba0",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "CSS unknown value",
+      "scope": [
+        "source.css meta.property-value",
+        "source.sass meta.property-value",
+        "source.scss meta.property-value",
+        "source.less meta.property-value",
+        "source.stylus meta.property-value",
+        "source.postcss meta.property-value"
+      ],
+      "settings": {
+        "foreground": "#6c8093",
         "fontStyle": ""
       }
     },
@@ -241,7 +320,7 @@
         "entity.other.attribute-name.class"
       ],
       "settings": {
-        "foreground": "#88abf9",
+        "foreground": "#e8c37d",
         "fontStyle": "italic"
       }
     },
@@ -252,6 +331,20 @@
       ],
       "settings": {
         "foreground": "#64c4ba"
+      }
+    },
+    {
+      "name": "CSS constants",
+      "scope": [
+        "source.css support.constant",
+        "source.sass support.constant",
+        "source.scss support.constant",
+        "source.less support.constant",
+        "source.stylus support.constant",
+        "source.postcss support.constant"
+      ],
+      "settings": {
+        "foreground": "#ffffffc5"
       }
     },
     /////////////////
@@ -468,12 +561,10 @@
       "name": "Number, Constant, Function Argument, Embedded",
       "scope": [
         "variable.other.constant",
-        "constant.numeric",
         "constant.language",
         "support.constant",
         "constant.character",
         "constant.escape",
-        "keyword.other.unit",
         "keyword.other"
       ],
       "settings": {
@@ -518,7 +609,7 @@
         "support.type"
       ],
       "settings": {
-        "foreground": "#C5A2C9"
+        "foreground": "#e16ba0"
       }
     },
     {
@@ -634,7 +725,7 @@
         "string.regexp punctuation.definition.character-class.regexp"
       ],
       "settings": {
-        "foreground": "#64c4ba"
+        "foreground": "#88abf9"
       }
     },
     {

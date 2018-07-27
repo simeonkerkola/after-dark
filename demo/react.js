@@ -24,3 +24,4 @@ EmojiResultsRow.propTypes = {
   symbol: PropTypes.string
 };
 export default EmojiResultsRow;
+

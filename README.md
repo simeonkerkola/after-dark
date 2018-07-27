@@ -4,9 +4,9 @@
 [![Installs](https://vsmarketplacebadge.apphb.com/installs-short/ssmi.after-dark.svg)](https://marketplace.visualstudio.com/items?itemName=ssmi.after-dark)
 [![Rating](https://vsmarketplacebadge.apphb.com/rating-short/ssmi.after-dark.svg)](https://marketplace.visualstudio.com/items?itemName=ssmi.after-dark)
 
-## A Theme like a late night TV.
+## _"...It's getting late..."_
 
-_Medium contrast, Vivid colors.
+_Data is priority, Vivid colors,
 Extra Dark backgound, Clear comments._
 
 Optimized for:

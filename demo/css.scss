@@ -1,0 +1,20 @@
+.someClass {
+  font-family: sans;
+}
+
+#someID {
+  background: yellow;
+}
+
+.composition {
+  position: relative; // Shrink all the other photos
+  &:hover &__photo:not(:hover) {
+    transform: scale(.95);
+  }
+}
+
+@supports (-webkit-background-clip: text) {
+  -webkit-background-clip: text; // Clips the background to exactly the places where the text sits
+  background-image: linear-gradient($light-green, $dark-green);
+  color: transparent; // Change the text to transparent too
+}
