@@ -16,7 +16,7 @@
     "debugToolBar.border": "#a28191",
     "dropdown.background": "#0E131B",
     "dropdown.border": "#181A1F",
-    "editorError.foreground": "#DE8385",
+    "editorError.foreground": "#e467a0",
     "editorWarning.foreground": "#e0c084d5",
     "editorIndentGuide.activeBackground": "#ffffffad",
     "editorIndentGuide.background": "#ffffff2f",
@@ -29,7 +29,7 @@
     "editorCursor.background": "#ffffffc5",
     "editorCursor.foreground": "#88abf9",
     "editorBracketMatch.border": "#ffffff2f",
-    "editorBracketMatch.background": "#ffffff2f",
+    "editorBracketMatch.background": "#ffffff0e",
     "editor.findMatchBackground": "#ffffff0e",
     "editor.findMatchBorder": "#dfbf81",
     "editor.findMatchHighlightBackground": "#ffffff0e",
@@ -60,7 +60,7 @@
     "list.highlightForeground": "#C5C5C5",
     "list.inactiveSelectionBackground": "#ffffff2f",
     "list.inactiveSelectionForeground": "#ffffffc5",
-    "list.errorForeground": "#a28191",
+    "list.errorForeground": "#e467a0",
     "list.warningForeground": "#dd7d41d5", // Something needs to be done
     "peekViewEditor.matchHighlightBackground": "#ffffff0e",
     "scrollbarSlider.background": "#ffffff2f",
@@ -68,7 +68,7 @@
     "scrollbarSlider.hoverBackground": "#ffffff3f",
     "sideBar.background": "#0E131B",
     "sideBar.foreground": "#6c8093",
-    "sideBarSectionHeader.background": "#ffffff2f",
+    "sideBarSectionHeader.background": "#0E131B",
     "statusBar.background": "#0E131B",
     "statusBar.foreground": "#6c8093",
     "statusBarItem.hoverBackground": "#0E131B",
@@ -98,13 +98,13 @@
     "gitDecoration.deletedResourceForeground": "#dfbf81d5",
     "gitDecoration.addedResourceForeground": "#dfbf81d5",
     "gitDecoration.untrackedResourceForeground": "#98c379",
-    "gitDecoration.conflictingResourceForeground": "#DE8385",
-    "gitDecoration.ignoredResourceForeground": "#ffffff2f",
+    "gitDecoration.conflictingResourceForeground": "#e467a0",
+    "gitDecoration.ignoredResourceForeground": "#0201012f",
     "gitDecoration.submoduleResourceForeground": "#6c8093",
     "diffEditor.insertedTextBackground": "#00809B33",
     "editorGutter.modifiedBackground": "#dfbf8188",
-    "editorGutter.addedBackground": "#98c37988",
-    "editorGutter.deletedBackground": "#DE838588"
+    "editorGutter.addedBackground": "#98c379",
+    "editorGutter.deletedBackground": "#e467a0"
   },
   "tokenColors": [
     ///// Javascript
@@ -163,7 +163,7 @@
       "name": "JavaScript Class new",
       "scope": "keyword.operator.new",
       "settings": {
-        "foreground": "#DE8385"
+        "foreground": "#e467a0"
       }
     },
     {
@@ -355,7 +355,7 @@
     {
       "scope": "keyword.operator",
       "settings": {
-        "foreground": "#DE8385"
+        "foreground": "#e467a0"
       }
     },
     {
