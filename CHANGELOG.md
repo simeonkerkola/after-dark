@@ -1,6 +1,18 @@
 # Change Log
 All notable changes to the "after-dark" extension will be documented in this file.
 
+## **0.2.0** - 2018-7-27
+
+### New
+- Dimming of operators, focus on the data
+- Colors for constants and dom variables
+
+### Changed
+- Lot's of tweaking around with colors
+
+### Changed
+- Yellow sparkling Golden
+
 ## **0.1.21** - 2018-7-26
 
 
