@@ -1,10 +1,10 @@
 # After Dark 🏮
 
+## _"...There's a Light Out on the Horizon..."_
+
 [![Version](https://vsmarketplacebadge.apphb.com/version-short/ssmi.after-dark.svg)](https://marketplace.visualstudio.com/items?itemName=ssmi.after-dark)
 [![Installs](https://vsmarketplacebadge.apphb.com/installs-short/ssmi.after-dark.svg)](https://marketplace.visualstudio.com/items?itemName=ssmi.after-dark)
 [![Rating](https://vsmarketplacebadge.apphb.com/rating-short/ssmi.after-dark.svg)](https://marketplace.visualstudio.com/items?itemName=ssmi.after-dark)
-
-## _"...It's getting late..."_
 
 _Data is priority, Vivid colors,
 Extra Dark backgound, Clear comments._

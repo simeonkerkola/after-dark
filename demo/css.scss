@@ -18,3 +18,8 @@
   background-image: linear-gradient($light-green, $dark-green);
   color: transparent; // Change the text to transparent too
 }
+
+input:checked+p {
+  background: #F9F9F9;
+  text-decoration: line-through;
+}

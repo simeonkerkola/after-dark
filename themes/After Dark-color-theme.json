@@ -99,7 +99,7 @@
     "gitDecoration.addedResourceForeground": "#e8c37d",
     "gitDecoration.untrackedResourceForeground": "#98c379",
     "gitDecoration.conflictingResourceForeground": "#e16ba0",
-    "gitDecoration.ignoredResourceForeground": "#0201012f",
+    "gitDecoration.ignoredResourceForeground": "#6c8093b0",
     "gitDecoration.submoduleResourceForeground": "#6c8093",
     "diffEditor.insertedTextBackground": "#00809B33",
     "editorGutter.modifiedBackground": "#e8c37d",
@@ -257,12 +257,12 @@
     {
       "name": "CSS &",
       "scope": [
-        "source.css entity.name.tag",
-        "source.sass entity.name.tag",
-        "source.scss entity.name.tag",
-        "source.less entity.name.tag",
-        "source.stylus entity.name.tag",
-        "source.postcss entity.name.tag"
+        "source.css entity.name.tag.reference",
+        "source.sass entity.name.tag.reference",
+        "source.scss entity.name.tag.reference",
+        "source.less entity.name.tag.reference",
+        "source.stylus entity.name.tag.reference",
+        "source.postcss entity.name.tag.reference"
       ],
       "settings": {
         "foreground": "#6c8093",
