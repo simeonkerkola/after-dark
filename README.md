@@ -11,7 +11,7 @@ Extra Dark backgound, Clear comments._
 
 Optimized for:
 
-- Javascript & React
+- Javascript & React & Vue
 - Html & Css
 - Clojure & ClojureScript (_Currently working on this_)
 

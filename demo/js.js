@@ -2,6 +2,10 @@ const hello = 'I am never used';
 
 doesNotExist.nope(`I'm never imported`);
 
+document.querySelectorAll('.lol');
+
+mockument.notQuerySelectorAll('.lol')
+
 class widget extends React.Component { }
 
 const joe = function () { };

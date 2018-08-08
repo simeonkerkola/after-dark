@@ -1,8 +1,8 @@
 {
     "name": "after-dark",
     "displayName": "After Dark",
-    "description": "A Theme like a late night TV",
-    "version": "0.2.3",
+    "description": "Medium Contrast, Data & State",
+    "version": "0.2.4",
     "publisher": "ssmi",
     "repository": {
         "type": "git",

@@ -8,6 +8,8 @@
 
 .composition {
   position: relative; // Shrink all the other photos
+  color: green;
+  
   &:hover &__photo:not(:hover) {
     transform: scale(.95);
   }
@@ -19,7 +21,7 @@
   color: transparent; // Change the text to transparent too
 }
 
-input:checked+p {
+input:checked + p {
   background: #F9F9F9;
   text-decoration: line-through;
 }

@@ -2,6 +2,20 @@
 
 All notable changes to the "after-dark" extension will be documented in this file.
 
+## **0.2.4** - 2018-8-8
+
+### Changed
+
+- Lighter Indent Guide
+- Tweaked the Teal Color
+- Minor Fixes
+
+## **0.2.3** - 2018-8-1
+
+### Changed
+
+- Logo
+
 ## **0.2.2** - 2018-7-29
 
 ### Changed
