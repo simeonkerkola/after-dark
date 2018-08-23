@@ -1,8 +1,8 @@
 {
     "name": "after-dark",
     "displayName": "After Dark",
-    "description": "Medium Contrast, Data & State",
-    "version": "0.2.4",
+    "description": "Medium Contrast Theme supporting What's Important",
+    "version": "0.2.5",
     "publisher": "ssmi",
     "repository": {
         "type": "git",

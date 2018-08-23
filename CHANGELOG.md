@@ -2,6 +2,14 @@
 
 All notable changes to the "after-dark" extension will be documented in this file.
 
+## **0.2.5** - 2018-8-23
+
+### Changed
+
+- Git file decoration
+- DOM Support function
+- Minor Color tweaks
+
 ## **0.2.4** - 2018-8-8
 
 ### Changed
