@@ -105,9 +105,10 @@
     "diffEditor.insertedTextBackground": "#00809B33",
     "editorGutter.modifiedBackground": "#88abf9d5",
     "editorGutter.addedBackground": "#98c379",
-    "editorGutter.deletedBackground": "#e16ba0",
-  
-    
+    "editorGutter.deletedBackground": "#ba7bcc",
+    "settings.checkboxForeground": "#ba7bcc",
+    "settings.modifiedItemIndicator": "#88abf9",
+    "settings.checkboxBorder": "#ffffffc5"
   },
   "tokenColors": [
     
@@ -139,7 +140,7 @@
       "name": "DOM Function",
       "scope": "support.function.dom.js",
       "settings": {
-        "foreground": "#ba7bcc",
+        "foreground": "#53c6ba",
         "fontStyle": ""
       }
     },

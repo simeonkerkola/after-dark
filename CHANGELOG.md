@@ -2,6 +2,16 @@
 
 All notable changes to the "after-dark" extension will be documented in this file.
 
+## **0.2.6** - 2018-9-5
+
+### New
+
+- Styling Settings in VSC ^1.27.0
+
+### Changed
+
+- DOM Support function back in Cyan
+
 ## **0.2.5** - 2018-8-23
 
 ### Changed

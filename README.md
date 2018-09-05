@@ -1,4 +1,4 @@
-# After Dark 🏮
+# After Dark
 
 ## _"...There's a Light Out on the Horizon..."_
 
