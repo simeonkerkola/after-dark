@@ -1,20 +1,10 @@
 <template>
-  <div class="snackbar-container">
-    <transition name="snackbar-toggle">
-      <div 
-        v-if="show" 
-        class="snackbar">
-        <div class="snackbar__text">
-          <span v-html="message"></span>
-        </div>
-        <div class="snackbar__action">
-          <button 
-            class="snackbar__button" 
-            @click="hideSnackbar">X</button>
-        </div>
-      </div>
-    </transition>
-  </div>
+  <button 
+    class="snackbar__button" 
+    @click="hideSnackbar"
+  >
+    hide
+  </button>
 </template>
 
 <script>
