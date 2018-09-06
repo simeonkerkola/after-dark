@@ -6,8 +6,9 @@
 [![Installs](https://vsmarketplacebadge.apphb.com/installs-short/ssmi.after-dark.svg)](https://marketplace.visualstudio.com/items?itemName=ssmi.after-dark)
 [![Rating](https://vsmarketplacebadge.apphb.com/rating-short/ssmi.after-dark.svg)](https://marketplace.visualstudio.com/items?itemName=ssmi.after-dark)
 
-_Data is priority, Vivid colors,
-Extra Dark backgound, Clear comments._
+### _Theme for your eyes ✨_
+
+##### _Vivid colors, High Contrast, Clear comments._
 
 Optimized for:
 

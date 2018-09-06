@@ -2,11 +2,11 @@
 
 All notable changes to the "after-dark" extension will be documented in this file.
 
-## **1.0.0** - 2018-9-6
+## **1.1.0** - 2018-9-6
 
 ### New
 
-- This will be 1.0 now.
+- This will be 1.1 now.
 
 ## **0.2.6** - 2018-9-5
 
