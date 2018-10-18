@@ -6,11 +6,23 @@ document.querySelectorAll('.lol');
 
 mockument.notQuerySelectorAll('.lol')
 
-Array.prototype.constructor
+arr.length
 
-const CONST = 'moi'
+undefined
+
+Array.constructor
+
+
+var lol = !!false
+CONST === 'moi'
 
 CONST
+
+{
+  this: 'is',
+  key: 'value',
+  lol: true
+}
 
 this.me
 

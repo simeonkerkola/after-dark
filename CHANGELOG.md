@@ -2,6 +2,12 @@
 
 All notable changes to the "after-dark" extension will be documented in this file.
 
+## **1.1.1** - 2018-10-18
+
+### Changed
+
+- Grey out `undefined`
+
 ## **1.1.0** - 2018-9-6
 
 ### New
