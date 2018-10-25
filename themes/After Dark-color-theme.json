@@ -2,6 +2,7 @@
   "name": "After Dark",
   "type": "dark",
   "colors": {
+    "editorUnnecessaryCode.opacity": "#00000091",
     "focusBorder": "#fff",
     "textBlockQuote.background": "#fff",
     "editor.background": "#0E131B",

@@ -4,48 +4,47 @@ doesNotExist.nope(`I'm never imported`);
 
 document.querySelectorAll('.lol');
 
-mockument.notQuerySelectorAll('.lol')
+mockument.notQuerySelectorAll('.lol');
 
-arr.length
+arr.length;
 
-undefined
+undefined;
 
-Array.constructor
+Array.constructor;
 
+var lol = !!false;
+CONST === 'moi';
 
-var lol = !!false
-CONST === 'moi'
+CONST;
 
-CONST
-
-{
+const obj = {
   this: 'is',
   key: 'value',
-  lol: true
+  lol: true,
+};
+
+this.me;
+
+window.self.me;
+
+const { dest } = ruckted;
+
+for (const { url: resourceUrl } of resources) this.is.me;
+
+class widget extends React.Component {}
+
+const joe = function() {};
+
+function unused(arg) {
+  console.log('i never do anything');
 }
-
-this.me
-
-window.self.me
-
-const {dest} = ruckted
-
-for (const { url: resourceUrl } of resources)
-
-this.is.me
-
-class widget extends React.Component { }
-
-const joe = function () { };
 
 const wes = 100;
 
 let cool = true;
 
-function wes() {
+function wes() {}
 
-}
-
-const wes = () => { };
+const wes = () => {};
 
 console.log(joe, wes);

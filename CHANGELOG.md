@@ -2,6 +2,12 @@
 
 All notable changes to the "after-dark" extension will be documented in this file.
 
+## **1.1.2** - 2018-10-25
+
+### Changed
+
+- Reduce opacity of unused code. Fixed the issue [#2](https://github.com/sssmi/after-dark/issues/2)
+
 ## **1.1.1** - 2018-10-18
 
 ### Changed
