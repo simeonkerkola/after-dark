@@ -2,6 +2,12 @@
 
 All notable changes to the "after-dark" extension will be documented in this file.
 
+## **1.1.3** - 2018-10-28
+
+### New
+
+- Syntax support for Styled Components.
+
 ## **1.1.2** - 2018-10-25
 
 ### Changed

@@ -455,7 +455,7 @@
     },
     {
       "name": "Variables",
-      "scope": ["variable", "string constant.other.placeholder"],
+      "scope": ["variable", "variable.other.object.", "string constant.other.placeholder"],
       "settings": {
         "foreground": "#88abf9"
       }
