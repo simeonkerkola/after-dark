@@ -1,8 +1,8 @@
 {
   "name": "after-dark",
   "displayName": "After Dark",
-  "description": "Theme for your eyes ✨",
-  "version": "1.1.30",
+  "description": "Theme for your eyes ?",
+  "version": "1.2.0",
   "publisher": "ssmi",
   "repository": {
     "type": "git",
@@ -16,7 +16,10 @@
     "Clojure",
     "Dark Theme",
     "Contrast",
-    "Night Theme"
+    "Night Theme",
+    "GraphQL",
+    "React",
+    "Vue"
   ],
   "galleryBanner": {
     "color": "#0E131B",
@@ -32,6 +35,11 @@
         "label": "After Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/After Dark-color-theme.json"
+      },
+      {
+        "label": "After Dark No Italics",
+        "uiTheme": "vs-dark",
+        "path": "/themes/After Dark-color-theme-noitalic.json"
       }
     ]
   }

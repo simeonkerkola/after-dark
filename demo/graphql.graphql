@@ -1,0 +1,23 @@
+# Comment
+
+type AggregateUser {
+  count: Int!
+}
+
+enum MutationType {
+  CREATED
+}
+
+type Query {
+  user(where: UserWhereUniqueInput!): User
+
+  """
+  Fetches an object given its ID
+  """
+  node(
+    """
+    The ID of an object
+    """
+    id: ID!
+  ): Node
+}

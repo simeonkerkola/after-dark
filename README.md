@@ -1,6 +1,6 @@
 # After Dark
 
-## _"...There's a Light Out on the Horizon..." ✨_
+## _Theme for your eyes_ ?
 
 [![Version](https://vsmarketplacebadge.apphb.com/version-short/ssmi.after-dark.svg)](https://marketplace.visualstudio.com/items?itemName=ssmi.after-dark)
 [![Installs](https://vsmarketplacebadge.apphb.com/installs-short/ssmi.after-dark.svg)](https://marketplace.visualstudio.com/items?itemName=ssmi.after-dark)

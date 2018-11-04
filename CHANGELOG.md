@@ -2,6 +2,17 @@
 
 All notable changes to the "after-dark" extension will be documented in this file.
 
+## **1.2.0** - 2018-11-4
+
+### New
+
+- New 'no italics' Theme.
+- Syntax support Prisma GraphQL schema.
+
+### Changed
+
+- Extended Styled Components syntax support
+
 ## **1.1.3** - 2018-10-28
 
 ### New
