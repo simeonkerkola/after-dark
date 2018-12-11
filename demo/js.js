@@ -6,11 +6,19 @@ document.querySelectorAll('.lol');
 
 mockument.notQuerySelectorAll('.lol');
 
+// Comment
+
 arr.length;
 
 undefined;
 
 Array.constructor;
+
+global.dogs = global.dogs || [];
+
+module.exports = Query;
+
+export default {};
 
 var lol = !!false;
 CONST === 'moi';

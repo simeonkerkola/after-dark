@@ -2,6 +2,7 @@
 
 type AggregateUser {
   count: Int!
+  count2: Intti!
 }
 
 enum MutationType {

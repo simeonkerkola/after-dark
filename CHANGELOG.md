@@ -2,6 +2,15 @@
 
 All notable changes to the "after-dark" extension will be documented in this file.
 
+## **1.2.2** - 2018-12-11
+
+### Changed
+
+- Border on Active Tab.
+- Made active selections to stand out better.
+- Better Syntax support for GraphQL.
+- Smaller Nodejs support related tweaks
+
 ## **1.2.0** - 2018-11-4
 
 ### New
