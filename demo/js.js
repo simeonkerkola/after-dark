@@ -39,20 +39,34 @@ const { dest } = ruckted;
 
 for (const { url: resourceUrl } of resources) this.is.me;
 
-class widget extends React.Component {}
+class widget extends React.Component { }
 
-const joe = function() {};
+const joe = function () { };
 
 function unused(arg) {
   console.log('i never do anything');
 }
 
-const wes = 100;
-
+const variable = 100;
 let cool = true;
 
-function wes() {}
+function func() { ; }
 
-const wes = () => {};
+const variable = () => { };
 
-console.log(joe, wes);
+console.log(joe, variable);
+
+import perPage from '../utils'
+
+const ALL_ITEMS_QUERY = gql`
+  query ALL_ITEMS_QUERY($first: Int = ${perPage}, $skip: Int = 0, $string: String = "asd") {
+    items(first: $first, skip: $skip, orderBy: createdAt_DESC) {
+      id
+      title
+      price
+      description
+      image
+      largeImage
+    }
+  }
+`;

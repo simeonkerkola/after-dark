@@ -242,14 +242,25 @@
       "name": "Mutation type",
       "scope": ["source.graphql support.type.graphql", "source.graphql support.type.enum.graphql"],
       "settings": {
-        "foreground": "#e8c37d"
+        "foreground": "#88abf9"
       }
     },
     {
       "name": "Data type of",
-      "scope": ["support.type.builtin.graphql"],
+      "scope": [
+        "meta.variables.graphql support.type.graphql"
+      ],
       "settings": {
-        "foreground": "#88abf9"
+        "foreground": "#ffffffc5"
+      }
+    },
+    {
+      "name": "Built in",
+      "scope": [
+        "support.type.builtin.graphql",
+      ],
+      "settings": {
+        "foreground": "#e8c37d"
       }
     },
     {
@@ -276,7 +287,38 @@
       ],
       "settings": {
         "foreground": "#b38098",
-        "fontStyle": "italic"
+        "fontStyle": "italic"  // KEEP ITALIC
+      }
+    },
+// APOLLO GQL
+    {     
+      "name": "String quotes and ${}",
+      "scope": [
+        "punctuation.definition.string.graphql",
+        "meta.embedded.block.graphql"
+      ],
+      "settings": {
+        "foreground": "#6c8093",
+        "fontStyle": "normal"
+      }
+    },
+    {     
+      "name": "Built in types",
+      "scope": [
+        "meta.arguments.graphql variable.graphql",
+        "support.type.builtin.graphql"
+      ],
+      "settings": {
+        "foreground": "#e8c37d"
+      }
+    },
+    {
+      "name": "${vars}",
+      "scope": [
+        "source.js meta.variables.graphql support.type.graphql"
+      ],
+      "settings": {
+        "foreground": "#88abf9"
       }
     },
 
@@ -525,13 +567,17 @@
       "name": "Comment",
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
-        "fontStyle": "italic",
+        "fontStyle": "italic", // KEEP ITALIC
         "foreground": "#b38098"
       }
     },
     {
       "name": "Variables",
-      "scope": ["variable", "variable.other.object.", "string constant.other.placeholder"],
+      "scope": ["variable",
+        "variable.other.object.",
+        "string constant.other.placeholder",
+        "support.type.graphql"
+      ],
       "settings": {
         "foreground": "#88abf9"
       }
@@ -862,7 +908,7 @@
       "name": "Markup - Italic",
       "scope": ["markup.italic"],
       "settings": {
-        "fontStyle": "italic",
+        "fontStyle": "italic",  // KEEP ITALIC
         "foreground": "#ffffffc5"
       }
     },

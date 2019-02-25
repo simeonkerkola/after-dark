@@ -2,6 +2,16 @@
 
 All notable changes to the "after-dark" extension will be documented in this file.
 
+## **1.2.3** - 2019-2-25
+
+### New
+
+- New Logo.
+
+### Changed
+
+- Tweaked GraphQL syntax.
+
 ## **1.2.2** - 2018-12-11
 
 ### Changed

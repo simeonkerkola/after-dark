@@ -8,19 +8,22 @@
 </head>
 
 <body>
-  <div class="container">
+  <div class="border-container">
 
-    <!-- <div class="orange">orange</div> -->
-
-    <div class="red">red</div>
-    <div class="green">green</div>
-    <div class="blue">blue</div>
-    <div class="yellow">yellow</div>
-    <div class="cyan">cyan</div>
-    <!-- <div class="red">red</div> -->
-    <!-- <div class="white">white</div> -->
-
-
+    <div class="container">
+      
+      <!-- <div class="orange">orange</div> -->
+      
+      <div class="red">red</div>
+      <div class="green">green</div>
+      <div class="blue">blue</div>
+      <div class="yellow">yellow</div>
+      <div class="cyan">cyan</div>
+      <!-- <div class="red">red</div> -->
+      <!-- <div class="white">white</div> -->
+      
+      
+    </div>
   </div>
 </body>
 <style>
@@ -28,13 +31,20 @@
     margin: 0;
     color: white;
     font-family: Dank Mono;
-    font-size: 130px;
+    font-size: 165px;
+    background-color: #0E131B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
-
+  .border-container {
+    border: 1px solid white;
   }
 
   .container {
     margin: 0;
+    transform: rotate(-45deg);
     width: 600px;
     justify-content: flex-start;
     align-items: center;
@@ -45,7 +55,7 @@
   }
 
   .container * {
-    margin: -20px 0;
+    margin: -35px 0;
   }
 
 
@@ -63,7 +73,8 @@
   }
 
   .red {
-    margin-top: -25px;
+    margin-top: -57px;
+    margin-bottom: -60px;
     color: #e16ba0;
     font-style: italic;
   }
@@ -78,6 +89,7 @@
 
   .cyan {
     color: #64c4ba;
+    margin-top: -50px;
   }
 </style>
 
