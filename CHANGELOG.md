@@ -2,6 +2,12 @@
 
 All notable changes to the "after-dark" extension will be documented in this file.
 
+## **1.2.4** - 2019-4-20
+
+### Changed
+
+- Minor tweaks.
+
 ## **1.2.3** - 2019-2-25
 
 ### New

@@ -140,7 +140,7 @@
     },
     {
       "name": "DOM Variable",
-      "scope": ["support.variable.dom.js", "support.variable.object.node.js"],
+      "scope": ["support.variable.dom.js", "support.variable"],     
       "settings": {
         "foreground": "#e8c37d",
         "fontStyle": ""
@@ -692,7 +692,8 @@
         "constant.other.key",
         "markup.heading",
         "markup.inserted.git_gutter",
-        "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
+        "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js",
+        "source.css meta.attribute-selector"
       ],
       "settings": {
         "fontStyle": "",

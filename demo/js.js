@@ -8,6 +8,8 @@ mockument.notQuerySelectorAll('.lol');
 
 // Comment
 
+process.env.APP_SECRET
+
 arr.length;
 
 undefined;

@@ -15,6 +15,8 @@
   }
 }
 
+input[type='checkbox']:focus ~ .selection-controls__clickable {}
+
 @supports (-webkit-background-clip: text) {
   -webkit-background-clip: text; // Clips the background to exactly the places where the text sits
   background-image: linear-gradient($light-green, $dark-green);
