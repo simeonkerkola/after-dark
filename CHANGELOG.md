@@ -2,6 +2,12 @@
 
 All notable changes to the "after-dark" extension will be documented in this file.
 
+## **1.2.9** - 2019-5-28
+
+### Changed
+
+- Accent color tweaks. Less grey, more shades of dark and dawn 🏮
+
 ## **1.2.4** - 2019-4-20
 
 ### Changed
