@@ -2,6 +2,14 @@
 
 All notable changes to the "after-dark" extension will be documented in this file.
 
+## **1.2.91** - 2019-6-3
+
+### Fixes/Tweaks
+
+- Statusbar debugging background
+- Bracket match border
+
+
 ## **1.2.9** - 2019-5-28
 
 ### Changed
