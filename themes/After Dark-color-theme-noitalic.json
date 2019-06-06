@@ -82,7 +82,7 @@
     "tab.activeBackground": "#0E131B",
     "tab.activeBorder": "#53c6bad5",
     "tab.activeForeground": "#c8d1df",
-    "tab.inactiveForeground": "#6c8093c5",
+    "tab.inactiveForeground": "#6c8093",
     "tab.border": "#0E131B",
     "tab.inactiveBackground": "#0E131B",
     "tab.hoverBackground": "#0E131B",
@@ -135,7 +135,7 @@
         "variable.language.prototype.js"
       ],
       "settings": {
-        "foreground": "#e16ba0",
+        "foreground": "#f386bf",
         "fontStyle": "normal"
       }
     },
@@ -175,7 +175,7 @@
       "name": "JavaScript Class new",
       "scope": "keyword.operator.new",
       "settings": {
-        "foreground": "#e16ba0"
+        "foreground": "#f386bf"
       }
     },
     {
@@ -275,7 +275,7 @@
       "name": "Mandatory value operator '!'",
       "scope": ["keyword.operator.nulltype.graphql"],
       "settings": {
-        "foreground": "#e16ba0"
+        "foreground": "#f386bf"
       }
     },
     {
@@ -434,7 +434,7 @@
         "source.postcss variable"
       ],
       "settings": {
-        "foreground": "#e16ba0",
+        "foreground": "#f386bf",
         "fontStyle": ""
       }
     },
@@ -518,7 +518,7 @@
       "name": "@ /",
       "scope": ["meta.expression.clojure"],
       "settings": {
-        "foreground": "#e16ba0",
+        "foreground": "#f386bf",
         "fontStyle": ""
       }
     },
@@ -721,7 +721,7 @@
       "name": "Entity Types",
       "scope": ["support.type"],
       "settings": {
-        "foreground": "#e16ba0"
+        "foreground": "#f386bf"
       }
     },
     {
@@ -798,7 +798,7 @@
       "name": "Regular Expressions",
       "scope": ["punctuation.definition.group.regexp"],
       "settings": {
-        "foreground": "#e16ba0"
+        "foreground": "#f386bf"
       }
     },
     {

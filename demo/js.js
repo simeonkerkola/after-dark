@@ -13,6 +13,9 @@ process.env.APP_SECRET
 arr.length;
 
 undefined;
+asd
+
+throw new Error('Danger!')
 
 Array.constructor;
 

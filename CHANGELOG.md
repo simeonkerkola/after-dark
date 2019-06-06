@@ -2,6 +2,12 @@
 
 All notable changes to the "after-dark" extension will be documented in this file.
 
+## **1.2.92** - 2019-6-6
+
+### Tweaks
+
+- The Pink has a new glow ??
+
 ## **1.2.91** - 2019-6-3
 
 ### Fixes/Tweaks
