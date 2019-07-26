@@ -5,9 +5,9 @@ doesNotExist.nope(`I'm never imported`);
 document.querySelectorAll('.lol');
 
 mockument.notQuerySelectorAll('.lol');
-
+       
 // Comment
-
+    
 process.env.APP_SECRET
 
 arr.length;
