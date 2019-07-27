@@ -12,9 +12,10 @@ Optimized for:
 
 - Javascript & React & Vue
 - Html & Css
-- Clojure & ClojureScript (_Currently working on this_)
+- Clojure & ClojureScript
 
-![Preview](preview.png)
+![react-example](react-example.png)
+![clojure-example](clojure-example.png)
 
 ## Installation
 
