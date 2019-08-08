@@ -1,6 +1,15 @@
 # Comment
+{
+  oldField(
+    """
+    Description for argument
+    """
+    arg: Int
+  ) @deprecated(reason: "Use otherField instead.")
 
+}
 type AggregateUser {
+  
   count: Int!
   count2: Intti!
 }

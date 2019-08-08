@@ -11,10 +11,17 @@
 Optimized for:
 
 - Javascript & React & Vue
-- Html & Css
 - Clojure & ClojureScript
+- Html
+- Css
+- Styled components
+- GraphQL
+
+### <center> _React_ </center>
 
 ![react-example](react-example.png)
+
+### <center> _ClojureScript_ </center>
 ![clojure-example](clojure-example.png)
 
 ## Installation
