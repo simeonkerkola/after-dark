@@ -2,6 +2,8 @@
   "name": "After Dark",
   "type": "dark",
   "colors": {
+    "editorLightBulb.foreground":"#88abf9",
+    "editorLightBulbAutoFix.foreground":"#e8c37d",
     "editorUnnecessaryCode.opacity": "#000000b2",
     "focusBorder": "#a8b6cc",
     "textBlockQuote.background": "#171f2c",
@@ -111,7 +113,7 @@
     "editorGutter.deletedBackground": "#ba7bcc",
     "settings.checkboxForeground": "#ba7bcc",
     "settings.modifiedItemIndicator": "#88abf9",
-    "settings.checkboxBorder": "#c8d1df",
+    "settings.checkboxBorder": "#c8d1df"
   },
   "tokenColors": [
     ///// Javascript
@@ -126,6 +128,7 @@
     {
       "name": "JavaScript this, *.prototype",
       "scope": [
+        "variable.language.this",
         "variable.language.this.js",
         "support.variable.property.js",
         "variable.language.arguments.js",
@@ -607,6 +610,7 @@
     {
       "name": "Operator, Misc",
       "scope": [
+        "keyword.operator.type.annotation.ts",
         "constant.other.color",
         "punctuation",
         "punctuation.definition.tag",

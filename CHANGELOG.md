@@ -2,6 +2,12 @@
 
 All notable changes to the "after-dark" extension will be documented in this file.
 
+## **1.3.3** - 2020-2-10
+
+### New
+
+- Official Typescript support
+
 ## **1.3.0** - 2019-7-26
 
 ### Fixes/Tweaks

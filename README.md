@@ -10,7 +10,8 @@
 
 Optimized for:
 
-- Javascript & React & Vue
+- Javascript & TypeScript
+- React & Vue
 - Clojure & ClojureScript
 - Html
 - Css
