@@ -2,6 +2,17 @@
 
 All notable changes to the "after-dark" extension will be documented in this file.
 
+## **1.4.0** - 2021-1-16
+
+### New
+
+[Support for semantic highlighting](https://code.visualstudio.com/api/language-extensions/semantic-highlight-guide)
+
+### Fixes/Tweaks
+- Added side bar border
+- Removed borders from multiple selected items,
+- Different background color highlighting for selected items and find match results
+
 ## **1.3.3** - 2020-2-10
 
 ### New

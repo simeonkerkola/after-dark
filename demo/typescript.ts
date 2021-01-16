@@ -21,9 +21,13 @@ interface RobotArmy {
   type: string,
   magic?: string 
 }
+type SomeType = {
+  prop: Boolean
+  another: string
+}
 
 let funcc = (robots: RobotArmy) => {
-  console.log(robots)
+  console.log(robots.type)
 }
 
 funcc({type:'adsf', count:2})

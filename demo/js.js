@@ -1,21 +1,31 @@
-const hello = 'I am never used';
+const hello = "I am never used";
+
+const obj = {
+  hello: "hello",
+};
+
+let og = {}
+
+obj.hello;
+
+obj.byebye;
 
 doesNotExist.nope(`I'm never imported`);
 
-document.querySelectorAll('.lol');
+document.querySelectorAll(".lol");
 
-mockument.notQuerySelectorAll('.lol');
-       
+mockument.notQuerySelectorAll(".lol");
+
 // Comment
-    
-process.env.APP_SECRET
+
+process.env.APP_SECRET;
 
 arr.length;
 
 undefined;
-asd
+asd;
 
-throw new Error('Danger!')
+throw new Error("Danger!");
 
 Array.constructor;
 
@@ -26,13 +36,13 @@ module.exports = Query;
 export default {};
 
 var lol = !!false;
-CONST === 'moi';
+CONST === "moi";
 
 CONST;
 
 const obj = {
-  this: 'is',
-  key: 'value',
+  this: "is",
+  key: "value",
   lol: true,
 };
 
@@ -44,24 +54,24 @@ const { dest } = ruckted;
 
 for (const { url: resourceUrl } of resources) this.is.me;
 
-class widget extends React.Component { }
+class widget extends React.Component {}
 
-const joe = function () { };
+const joe = function () {};
 
 function unused(arg) {
-  console.log('i never do anything');
+  console.log("i never do anything");
 }
 
 const variable = 100;
 let cool = true;
 
-function func() { ; }
+function func() {}
 
-const variable = () => { };
+const variable = () => {};
 
 console.log(joe, variable);
 
-import perPage from '../utils'
+import perPage from "../utils";
 
 const ALL_ITEMS_QUERY = gql`
   query ALL_ITEMS_QUERY($first: Int = ${perPage}, $skip: Int = 0, $string: String = "asd") {
