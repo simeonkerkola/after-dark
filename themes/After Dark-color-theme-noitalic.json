@@ -1,6 +1,21 @@
 {
   "name": "After Dark",
   "type": "dark",
+  "semanticHighlighting": true,
+  "semanticTokenColors": {
+    "function": {
+      "foreground": "#53c6ba"
+    },
+    "variable": "#e8c37d",
+    "interface": {
+      "foreground": "#e8c37d",
+    },
+    "type": {
+      "foreground": "#e8c37d",
+    },
+    // This colours both object definiton properties, as well as references. If the property does not exist, it will be white\.
+    "property": "#E6A26F",
+  },
   "colors": {
     "editorLightBulb.foreground":"#88abf9",
     "editorLightBulbAutoFix.foreground":"#e8c37d",
@@ -26,17 +41,14 @@
     "editorMarkerNavigation.background": "#0E131B",
     "editorRuler.foreground": "#232f43",
     "editor.lineHighlightBackground": "#171f2c",
-    "editor.selectionBackground": "#232f43",
-    "editor.selectionHighlightBackground": "#171f2c",
-    "editor.selectionHighlightBorder": "#a8b6cc",
+    "editor.selectionBackground": "#2F405A",
+    "editor.selectionHighlightBackground": "#2F405A77",
     "editorCursor.background": "#c8d1df",
     "editorCursor.foreground": "#88abf9",
     "editorBracketMatch.border": "#6c8093c5",
     "editorBracketMatch.background": "#171f2c",
-    "editor.findMatchBackground": "#171f2c",
-    "editor.findMatchBorder": "#e8c37d",
-    "editor.findMatchHighlightBackground": "#171f2c",
-    "editor.findMatchHighlightBorder": "#a8b6cc",
+    "editor.findMatchBackground": "#f386bf55",
+    "editor.findMatchHighlightBackground": "#f386bf33",
     "editor.wordHighlightBackground": "#484e5b",
     "editor.wordHighlightBorder": "#7f848e",
     "editor.wordHighlightStrongBackground": "#abb2bf26",
@@ -69,10 +81,11 @@
     "list.warningForeground": "#e8c37d", // Something needs to be done
     "peekViewEditor.matchHighlightBackground": "#171f2c",
     "scrollbarSlider.background": "#232f43",
-    "scrollbarSlider.activeBackground": "#232f43",
-    "scrollbarSlider.hoverBackground": "#232f43",
+    "scrollbarSlider.activeBackground": "#2F405A",
+    "scrollbarSlider.hoverBackground": "#2A3950",
     "sideBar.background": "#0E131B",
     "sideBar.foreground": "#6c8093c5",
+    "sideBar.border": "#232f43",
     "sideBarSectionHeader.background": "#0E131B",
     "statusBar.background": "#0E131B",
     "statusBar.foreground": "#6c8093c5",
@@ -129,7 +142,6 @@
       "name": "JavaScript this, *.prototype",
       "scope": [
         "variable.language.this",
-        "variable.language.this.js",
         "support.variable.property.js",
         "variable.language.arguments.js",
         "variable.language.self.js",
@@ -291,7 +303,7 @@
       ],
       "settings": {
         "foreground": "#b38098",
-        "fontStyle": "italic"  // KEEP ITALIC
+        "fontStyle": "normal"  // KEEP ITALIC
       }
     },
 // APOLLO GQL
@@ -571,7 +583,7 @@
       "name": "Comment",
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
-        "fontStyle": "italic", // KEEP ITALIC
+        "fontStyle": "normal", // KEEP ITALIC
         "foreground": "#b38098"
       }
     },
