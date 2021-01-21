@@ -1,0 +1,156 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div class="border-container">
+      <div class="container">
+        <div class="moon">
+          <div class="crater crater1"></div>
+          <div class="crater crater2"></div>
+          <div class="crater crater3"></div>
+          <div class="crater crater4"></div>
+          <div class="crater crater5"></div>
+          <div class="crater crater6"></div>
+          <div class="crater crater7"></div>
+          <div class="shadow"></div>
+        </div>
+        <span class="text">After Dark</span>
+      </div>
+    </div>
+  </body>
+  <style>
+    :root {
+      --bg: #0e131b;
+      --crater: #9eabc1;
+      --moon: #c8d1df;
+      --shadow1: #7d8a9d;
+      --shadow2: rgb(121, 133, 152);
+      /* --shadow1: #f00;
+      --shadow2: #0f0; */
+    }
+
+    body {
+      margin: 0;
+      color: white;
+      font-family: 'Dank Mono';
+      background-color: var(--bg);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .border-container {
+      border: 1px solid white;
+    }
+
+    .container {
+      position: relative;
+      margin: 30px;
+      width: 600px;
+      height: 600px;
+      background-color: var(--bg);
+    }
+
+    .text {
+      color: #88abf9;
+      font-weight: bold;
+      font-size: 230px;
+      letter-spacing: -10px;
+      line-height: 0.85;
+      font-style: italic;
+      z-index: 1;
+      position: absolute;
+      bottom: 0;
+      text-shadow: #0E131B 1px 1px 15px, #0E131B -1px -1px 10px;
+    }
+
+    .moon {
+      border: 5px solid var(--bg);
+      position: absolute;
+      right: 0;
+      width: 400px;
+      height: 400px;
+      background-color: var(--moon);
+      border-radius: 999px;
+    }
+
+    .crater {;
+      transform: rotate(55deg);
+      background-color: var(--crater);
+      box-shadow: inset 7px 0px 8px -8px #171f2c;
+      border-radius: 999px;
+      position: absolute;
+    }
+
+    .crater.crater1 {
+      top: 25%;
+      right: 15%;
+      width: 22%;
+      height: 22%;
+    }
+
+    .crater.crater2 {
+      top: 42%;
+      right: 40%;
+      width: 8%;
+      height: 8%;
+    }
+
+    .crater.crater3 {
+      top: 65%;
+      right: 15%;
+      width: 12%;
+      height: 12%;
+    }
+
+    .crater.crater4 {
+      top: 75%;
+      right: 55%;
+      width: 8%;
+      height: 8%;
+    }
+
+    .crater.crater5 {
+      visibility: hidden;
+      top: 80%;
+      right: 60%;
+      width: 10%;
+      height: 10%;
+    }
+
+    .crater.crater6 {
+      top: 55%;
+      left: 15%;
+      width: 15%;
+      height: 15%;
+    }
+
+    .crater.crater7 {
+      top: 65%;
+      left: 39%;
+      width: 10%;
+      height: 10%;
+    }
+
+    .shadow {
+      position: absolute;
+      background: linear-gradient(
+        130deg,
+        transparent 20%,
+        #7d8a9ddd 40%,
+        #0e131bdd 70%,
+        #0e131bee 75%,
+        #0e131bff 80%
+      );
+      border: 1px solid var(--bg);
+      width: 100%;
+      height: 100%;
+      border-radius: 999px;
+    }
+  </style>
+</html>

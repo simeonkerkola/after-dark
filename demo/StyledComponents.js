@@ -3,12 +3,12 @@ const Logo = styled.h1`
 
   a {
     padding: 0.5rem 1rem;
-    background: ${props => props.theme.red};
+    background: ${(props) => props.theme.red};
     text-transform: uppercase;
     color: ${({ blue }) => blue};
   }
 
-  @media (${props => props.theme.bpLg}) {
+  @media (${(props) => props.theme.bpLg}) {
     margin: 0;
     text-align: center;
   }

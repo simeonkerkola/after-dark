@@ -2,7 +2,7 @@
   "name": "after-dark",
   "displayName": "After Dark",
   "description": "✨ Theme for your eyes",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "publisher": "ssmi",
   "repository": {
     "type": "git",
@@ -25,7 +25,7 @@
   "categories": [
     "Themes"
   ],
-  "icon": "logo.png",
+  "icon": "new-logo.png",
   "contributes": {
     "themes": [
       {
