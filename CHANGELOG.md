@@ -2,6 +2,12 @@
 
 All notable changes to the "after-dark" extension will be documented in this file.
 
+## **1.4.2** - 2021-1-27
+
+### Tweaks
+
+- Inputs have ligter background color
+
 ## **1.4.0** - 2021-1-16
 
 ### New
