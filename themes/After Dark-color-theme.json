@@ -32,7 +32,7 @@
     "button.background": "#0E131B",
     "debugToolBar.background": "#0E131Bd2",
     "debugToolBar.border": "#b38098",
-    "dropdown.background": "#0E131B",
+    "dropdown.background": "#171f2c",
     "dropdown.border": "#181A1F",
     "editorError.foreground": "#e16ba0",
     "editorWarning.foreground": "#e0c084d5",
