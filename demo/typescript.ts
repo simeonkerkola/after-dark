@@ -16,6 +16,8 @@ import { AppComponent } from './app.component';
 })
 export class AppModule { }
 
+const BIG_CONSTANT = 'const'
+
 interface RobotArmy {
   count: number,
   type: string,
@@ -35,7 +37,7 @@ funcc({type:'adsf', count:2})
 
 // functions
 let func3 = (robots: RobotArmy): void => {
-  console.log(robots)
+  console.log(robots,BIG_CONSTANT)
 }
 
 // Class
