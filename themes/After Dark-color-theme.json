@@ -18,6 +18,7 @@
   },
   "colors": {
     "editorLightBulb.foreground":"#88abf9",
+    "editorOverviewRuler.border":"#232f43",
     "editorLightBulbAutoFix.foreground":"#e8c37d",
     "editorUnnecessaryCode.opacity": "#000000b2",
     "focusBorder": "#a8b6cc",
@@ -25,7 +26,7 @@
     "editor.background": "#0E131B",
     "editor.foreground": "#c8d1df",
     "activityBarBadge.background": "#0E131Bd2",
-    "activityBar.background": "#0E131B",
+    "activityBar.background": "#111822",
     "activityBar.foreground": "#c8d1df",
     "activityBarBadge.foreground": "#c8d1df",
     "badge.background": "#0E131B",
@@ -55,7 +56,7 @@
     "editor.wordHighlightStrongBorder": "#7f848e",
     "editorGroup.emptyBackground": "#0E131B",
     "editorGroup.border": "#181A1F",
-    "editorGroupHeader.tabsBackground": "#0E131B",
+    "editorGroupHeader.tabsBackground": "#111822",
     "editorLineNumber.foreground": "#6c809370",
     "editorLineNumber.activeForeground": "#a8b6cc",
     "editorWhitespace.foreground": "#6c809370",
@@ -80,6 +81,7 @@
     "list.errorForeground": "#ba7bcc",
     "list.dropBackground": "#232f43",
     "list.warningForeground": "#e8c37d", // Something needs to be done
+    "panel.border": "#232f43",
     "peekViewEditor.matchHighlightBackground": "#171f2c",
     "scrollbarSlider.background": "#232f43",
     "scrollbarSlider.activeBackground": "#2F405A",
@@ -88,7 +90,7 @@
     "sideBar.foreground": "#6c8093",
     "sideBar.border": "#232f43",
     "sideBarSectionHeader.background": "#0E131B",
-    "statusBar.background": "#0E131B",
+    "statusBar.background": "#111822",
     "statusBar.foreground": "#6c8093c5",
     "statusBarItem.hoverBackground": "#171f2c",
     "statusBar.noFolderBackground": "#0E131B",
@@ -96,14 +98,10 @@
     "statusBar.debuggingBorder": "#0E131Bd2",
     "statusBar.debuggingForeground": "#0E131B",
     "tab.activeBackground": "#0E131B",
-    "tab.activeBorder": "#53c6bad5",
     "tab.activeForeground": "#c8d1df",
     "tab.inactiveForeground": "#6c8093",
     "tab.border": "#0E131B",
-    "tab.inactiveBackground": "#0E131B",
-    "tab.hoverBackground": "#0E131B",
-    "tab.hoverBorder": "#53c6bad5",
-    "tab.unfocusedHoverBackground": "#0E131B",
+    "tab.inactiveBackground": "#111822",
     "terminal.background": "#0E131B",
     "terminal.foreground": "#ba7bcc",
     "terminal.ansiBlack": "#0E131Bd2",
@@ -128,7 +126,7 @@
     "settings.checkboxForeground": "#ba7bcc",
     "settings.modifiedItemIndicator": "#88abf9",
     "settings.checkboxBorder": "#c8d1df"
-  },
+    },
   "tokenColors": [
     ///// Javascript
     /////////////////////
