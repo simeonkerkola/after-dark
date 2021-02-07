@@ -4,7 +4,7 @@ const obj = {
   hello: "hello",
 };
 
-let og = {}
+let og = {};
 
 obj.hello;
 
