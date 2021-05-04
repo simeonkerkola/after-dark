@@ -18,7 +18,7 @@ export class AppModule { }
 
 const BIG_CONSTANT = 'const'
 
-interface RobotArmy {
+interface WhatEver {
   count: number,
   type: string,
   magic?: string 
@@ -28,16 +28,17 @@ type SomeType = {
   another: string
 }
 
-let funcc = (robots: RobotArmy) => {
-  console.log(robots.type)
+let funcc = (someThings: WhatEver) => {
+  console.log(someThings.type)
+  console.log(someThings.typee)
 }
 
 funcc({type:'adsf', count:2})
 
 
 // functions
-let func3 = (robots: RobotArmy): void => {
-  console.log(robots,BIG_CONSTANT)
+let func3 = (someThings: WhatEver): void => {
+  console.log(someThings,BIG_CONSTANT)
 }
 
 // Class

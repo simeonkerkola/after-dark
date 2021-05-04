@@ -2,6 +2,16 @@
 
 All notable changes to the "after-dark" extension will be documented in this file.
 
+## **1.5.0** - 2021-5-4
+
+### New
+
+- Add a hover border color for draggable sashes
+
+### Tweaks
+
+- Tweak the softblack colors more towards blue
+
 ## **1.4.2** - 2021-1-27
 
 ### Tweaks
@@ -12,7 +22,7 @@ All notable changes to the "after-dark" extension will be documented in this fil
 
 ### New
 
-[Support for semantic highlighting](https://code.visualstudio.com/api/language-extensions/semantic-highlight-guide)
+[Support for semantic highlighting](https://code.visualstudio.com/api/language-extensions/semantic-highlight-guide) [EXPERIMENTAL]
 
 ### Fixes/Tweaks
 - Added side bar border
