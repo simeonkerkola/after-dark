@@ -4,10 +4,12 @@
 
 :root{
   --variable: #666;
+  --variable: rgba(222,222,0,8);
 }
 
 #someID {
   background: yellow;
+  background: yellowee;
 }
 
 :global(.someClass) {

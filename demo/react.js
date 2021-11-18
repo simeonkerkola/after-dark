@@ -21,7 +21,6 @@ class EmojiResultsRow extends PureComponent {
 }
 EmojiResultsRow.propTypes = {
   title: PropTypes.string,
-  symbol: PropTypes.string
+  symbol: PropTypes.string,
 };
 export default EmojiResultsRow;
-

@@ -1,3 +1,13 @@
+import { FormsModule } from "@angular/forms";
+
+async function fuu() {
+  await fetch();
+}
+
+fuu.then((res) => {
+  console.log("bar");
+});
+
 const hello = "I am never used";
 
 const obj = {

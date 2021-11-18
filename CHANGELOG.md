@@ -2,6 +2,11 @@
 
 All notable changes to the "after-dark" extension will be documented in this file.
 
+## **1.6.0** - 2021-11-18
+
+### New
+- Bracket pair guides colorization support
+
 ## **1.5.0** - 2021-5-4
 
 ### New
