@@ -1,9 +1,11 @@
 .vscode/**
 .vscode-test/**
 .gitignore
+.git
 vsc-extension-quickstart.md
 *.scss
 *.html
-/demo
-old_preview.png
-preview.png
+*.png
+*.jpg
+demo/**
+node_modules

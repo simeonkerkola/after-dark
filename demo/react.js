@@ -6,7 +6,7 @@ import "./EmojiResultRow.css";
 class EmojiResultsRow extends PureComponent {
   render() {
     const codePointHex = this.props.symbol.codePointAt(0).toString(16);
-    const src = `//cdn.jsdelivr.net/emojione/assets/png/${codePointHex}.png`;
+    const src = `//cdn.jsdelivr.net/emojione/${codePointHex}.png`;
     return (
       <div
         className="component-emoji-result-row copy-to-clipboard"

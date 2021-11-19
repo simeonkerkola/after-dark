@@ -26,10 +26,11 @@
     "textBlockQuote.background": "#131c2a",
     "editor.background": "#0E131B",
     "editor.foreground": "#c8d1df",
-    "activityBarBadge.background": "#0E131Bd2",
+    "activityBarBadge.background": "#48bdb1",
+    "activityBarBadge.foreground": "#0E131B",
     "activityBar.background": "#0E131B",
-    "activityBarBadge.foreground": "#c8d1df",
-    "badge.background": "#0E131B",
+    "badge.background": "#53c6ba",
+    "badge.foreground": "#0E131B",
     "button.background": "#0E131B",
     "debugToolBar.background": "#0E131Bd2",
     "debugToolBar.border": "#b38098",
@@ -81,7 +82,7 @@
     "list.errorForeground": "#ba7bcc",
     "list.dropBackground": "#1e293e",
     "list.warningForeground": "#e8c37d", // Something needs to be done
-
+    "tab.activeBorderTop": "#88abf9",
     "panel.border": "#1e293e",
     "peekViewEditor.matchHighlightBackground": "#131c2a",
     "scrollbarSlider.background": "#1e293e",

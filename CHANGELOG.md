@@ -2,6 +2,15 @@
 
 All notable changes to the "after-dark" extension will be documented in this file.
 
+## **1.6.1** - 2021-11-19
+
+### New
+- Teal badges
+- Blue top border on active tab
+
+### Fix
+- Bracket pair guides colorization support for noitalic version
+
 ## **1.6.0** - 2021-11-18
 
 ### New

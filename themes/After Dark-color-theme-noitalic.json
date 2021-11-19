@@ -26,10 +26,11 @@
     "textBlockQuote.background": "#131c2a",
     "editor.background": "#0E131B",
     "editor.foreground": "#c8d1df",
-    "activityBarBadge.background": "#0E131Bd2",
+    "activityBarBadge.background": "#48bdb1",
+    "activityBarBadge.foreground": "#0E131B",
     "activityBar.background": "#0E131B",
-    "activityBarBadge.foreground": "#c8d1df",
-    "badge.background": "#0E131B",
+    "badge.background": "#53c6ba",
+    "badge.foreground": "#0E131B",
     "button.background": "#0E131B",
     "debugToolBar.background": "#0E131Bd2",
     "debugToolBar.border": "#b38098",
@@ -81,7 +82,7 @@
     "list.errorForeground": "#ba7bcc",
     "list.dropBackground": "#1e293e",
     "list.warningForeground": "#e8c37d", // Something needs to be done
-
+    "tab.activeBorderTop": "#88abf9",
     "panel.border": "#1e293e",
     "peekViewEditor.matchHighlightBackground": "#131c2a",
     "scrollbarSlider.background": "#1e293e",
@@ -126,8 +127,18 @@
     "editorGutter.deletedBackground": "#ba7bcc",
     "settings.checkboxForeground": "#ba7bcc",
     "settings.modifiedItemIndicator": "#88abf9",
-    "settings.checkboxBorder": "#c8d1df"
-    },
+    "settings.checkboxBorder": "#c8d1df",
+    "editorBracketPairGuide.activeBackground1": "#98c379ee",
+    "editorBracketHighlight.foreground1": "#98c379ee",
+    "editorBracketPairGuide.activeBackground2": "#ba7bcc",
+    "editorBracketHighlight.foreground2": "#ba7bcc",
+    "editorBracketPairGuide.activeBackground3": "#53c6bacc",
+    "editorBracketHighlight.foreground3": "#53c6bacc",
+    "editorBracketPairGuide.activeBackground4": "#E6A26Fcf",
+    "editorBracketHighlight.foreground4": "#E6A26Fcf",
+    "editorBracketPairGuide.activeBackground5": "#88abf9dd",
+    "editorBracketHighlight.foreground5": "#88abf9dd"
+  },
   "tokenColors": [
     ///// Javascript
     /////////////////////
@@ -357,7 +368,7 @@
 
     {
       "name": "CSS Support",
-      "scope": ["source.css meta.property-name.media-query"],
+      "scope": ["source.css meta.property-name.media-query", "source.css constant.other.color", "punctuation.definition.constant.css"],
       "settings": {
         "foreground": "#c8d1df"
       }
