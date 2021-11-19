@@ -6,6 +6,7 @@ vsc-extension-quickstart.md
 *.scss
 *.html
 *.png
+!new-logo.png
 *.jpg
 demo/**
 node_modules
