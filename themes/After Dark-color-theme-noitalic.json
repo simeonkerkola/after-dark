@@ -8,19 +8,19 @@
     },
     "variable": "#e8c37d",
     "interface": {
-      "foreground": "#e8c37d",
+      "foreground": "#e8c37d"
     },
     "type": {
-      "foreground": "#e8c37d",
+      "foreground": "#e8c37d"
     },
     // This colours both object definiton properties, as well as references. If the property does not exist, it will be white\.
-    "property": "#E6A26F",
+    "property": "#E6A26F"
   },
   "colors": {
     "sash.hoverBorder": "#2a3b5a",
-    "editorLightBulb.foreground":"#88abf9",
-    "editorOverviewRuler.border":"#1e293e",
-    "editorLightBulbAutoFix.foreground":"#e8c37d",
+    "editorLightBulb.foreground": "#88abf9",
+    "editorOverviewRuler.border": "#1e293e",
+    "editorLightBulbAutoFix.foreground": "#e8c37d",
     "editorUnnecessaryCode.opacity": "#000000b2",
     "focusBorder": "#6c8093",
     "textBlockQuote.background": "#131c2a",
@@ -128,16 +128,14 @@
     "settings.checkboxForeground": "#ba7bcc",
     "settings.modifiedItemIndicator": "#88abf9",
     "settings.checkboxBorder": "#c8d1df",
-    "editorBracketPairGuide.activeBackground1": "#98c379ee",
-    "editorBracketHighlight.foreground1": "#98c379ee",
-    "editorBracketPairGuide.activeBackground2": "#ba7bcc",
-    "editorBracketHighlight.foreground2": "#ba7bcc",
+    "editorBracketPairGuide.activeBackground1": "#ba7bcc",
+    "editorBracketHighlight.foreground1": "#ba7bcc",
+    "editorBracketPairGuide.activeBackground2": "#88abf9dd",
+    "editorBracketHighlight.foreground2": "#88abf9dd",
     "editorBracketPairGuide.activeBackground3": "#53c6bacc",
     "editorBracketHighlight.foreground3": "#53c6bacc",
-    "editorBracketPairGuide.activeBackground4": "#E6A26Fcf",
-    "editorBracketHighlight.foreground4": "#E6A26Fcf",
-    "editorBracketPairGuide.activeBackground5": "#88abf9dd",
-    "editorBracketHighlight.foreground5": "#88abf9dd"
+    "editorBracketPairGuide.activeBackground4": "#e6a36fdd",
+    "editorBracketHighlight.foreground4": "#e6a36fdd"
   },
   "tokenColors": [
     ///// Javascript
@@ -274,18 +272,14 @@
     },
     {
       "name": "Data type of",
-      "scope": [
-        "meta.variables.graphql support.type.graphql"
-      ],
+      "scope": ["meta.variables.graphql support.type.graphql"],
       "settings": {
         "foreground": "#c8d1df"
       }
     },
     {
       "name": "Built in",
-      "scope": [
-        "support.type.builtin.graphql",
-      ],
+      "scope": ["support.type.builtin.graphql"],
       "settings": {
         "foreground": "#e8c37d"
       }
@@ -314,36 +308,28 @@
       ],
       "settings": {
         "foreground": "#b38098",
-        "fontStyle": "italic"  // KEEP ITALIC
+        "fontStyle": "italic" // KEEP ITALIC
       }
     },
-// APOLLO GQL
-    {     
+    // APOLLO GQL
+    {
       "name": "String quotes and ${}",
-      "scope": [
-        "punctuation.definition.string.graphql",
-        "meta.embedded.block.graphql"
-      ],
+      "scope": ["punctuation.definition.string.graphql", "meta.embedded.block.graphql"],
       "settings": {
         "foreground": "#6c8093",
         "fontStyle": "normal"
       }
     },
-    {     
+    {
       "name": "Built in types",
-      "scope": [
-        "meta.arguments.graphql variable.graphql",
-        "support.type.builtin.graphql"
-      ],
+      "scope": ["meta.arguments.graphql variable.graphql", "support.type.builtin.graphql"],
       "settings": {
         "foreground": "#e8c37d"
       }
     },
     {
       "name": "${vars}",
-      "scope": [
-        "source.js meta.variables.graphql support.type.graphql"
-      ],
+      "scope": ["source.js meta.variables.graphql support.type.graphql"],
       "settings": {
         "foreground": "#88abf9"
       }
@@ -368,7 +354,11 @@
 
     {
       "name": "CSS Support",
-      "scope": ["source.css meta.property-name.media-query", "source.css constant.other.color", "punctuation.definition.constant.css"],
+      "scope": [
+        "source.css meta.property-name.media-query",
+        "source.css constant.other.color",
+        "punctuation.definition.constant.css"
+      ],
       "settings": {
         "foreground": "#c8d1df"
       }
@@ -600,7 +590,8 @@
     },
     {
       "name": "Variables",
-      "scope": ["variable",
+      "scope": [
+        "variable",
         "variable.other.object.",
         "string constant.other.placeholder",
         "support.type.graphql"
@@ -944,7 +935,7 @@
       "name": "Markup - Italic",
       "scope": ["markup.italic"],
       "settings": {
-        "fontStyle": "italic",  // KEEP ITALIC
+        "fontStyle": "italic", // KEEP ITALIC
         "foreground": "#c8d1df"
       }
     },

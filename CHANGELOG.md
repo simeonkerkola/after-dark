@@ -2,18 +2,27 @@
 
 All notable changes to the "after-dark" extension will be documented in this file.
 
+## **1.6.2** - 2022-5-21
+
+### Changes
+
+- Better bracket pair guides colorization
+
 ## **1.6.1** - 2021-11-19
 
 ### New
+
 - Teal badges
 - Blue top border on active tab
 
 ### Fix
+
 - Bracket pair guides colorization support for noitalic version
 
 ## **1.6.0** - 2021-11-18
 
 ### New
+
 - Bracket pair guides colorization support
 
 ## **1.5.0** - 2021-5-4
@@ -39,6 +48,7 @@ All notable changes to the "after-dark" extension will be documented in this fil
 [Support for semantic highlighting](https://code.visualstudio.com/api/language-extensions/semantic-highlight-guide) [EXPERIMENTAL]
 
 ### Fixes/Tweaks
+
 - Added side bar border
 - Removed borders from multiple selected items,
 - Different background color highlighting for selected items and find match results
@@ -67,7 +77,6 @@ All notable changes to the "after-dark" extension will be documented in this fil
 
 - Statusbar debugging background
 - Bracket match border
-
 
 ## **1.2.9** - 2019-5-28
 
