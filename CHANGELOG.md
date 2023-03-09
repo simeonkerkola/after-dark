@@ -2,6 +2,12 @@
 
 All notable changes to the "after-dark" extension will be documented in this file.
 
+## **1.6.4** - 2023 Mar 9
+
+### Changed
+
+- Add license and update readme
+
 ## **1.6.3** - 2023 Mar 9
 
 ### Changed
