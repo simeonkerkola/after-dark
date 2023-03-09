@@ -2,9 +2,10 @@
 
 ## _Theme for your eyes_ ✨
 
-[![Version](https://vsmarketplacebadge.apphb.com/version-short/ssmi.after-dark.svg)](https://marketplace.visualstudio.com/items?itemName=ssmi.after-dark)
-[![Installs](https://vsmarketplacebadge.apphb.com/installs-short/ssmi.after-dark.svg)](https://marketplace.visualstudio.com/items?itemName=ssmi.after-dark)
-[![Rating](https://vsmarketplacebadge.apphb.com/rating-short/ssmi.after-dark.svg)](https://marketplace.visualstudio.com/items?itemName=ssmi.after-dark)
+[![VS Marketplace](https://badgen.net/vs-marketplace/v/ssmi.after-dark)](https://marketplace.visualstudio.com/items?itemName=ssmi.after-dark)
+[![Open VSX](https://badgen.net//open-vsx/version/TODO/TODO)](TODO)
+[![Installs](https://badgen.net/vs-marketplace/i/ssmi.after-dark)](https://marketplace.visualstudio.com/items?itemName=ssmi.after-dark)
+[![Installs](https://badgen.net/vs-marketplace/rating/ssmi.after-dark)](https://marketplace.visualstudio.com/items?itemName=ssmi.after-dark)
 
 ##### _Vivid colors, Medium Contrast, Clear comments._
 
@@ -23,6 +24,7 @@ Optimized for:
 ![react-example](react-example.png)
 
 ### <center> _ClojureScript_ </center>
+
 ![clojure-example](clojure-example.png)
 
 ## Installation
