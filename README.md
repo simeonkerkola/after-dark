@@ -3,9 +3,7 @@
 ## _Theme for your eyes_ ✨
 
 [![VS Marketplace](https://badgen.net/vs-marketplace/v/ssmi.after-dark)](https://marketplace.visualstudio.com/items?itemName=ssmi.after-dark)
-
-[![Open VSX](https://badgen.net//open-vsx/version/ssmi/after-dark)](https://open-vsx.org/extension/ssmi/after-dark)
-
+[![Open VSX](https://badgen.net/open-vsx/version/ssmi/after-dark)](https://open-vsx.org/extension/ssmi/after-dark)
 [![Installs](https://badgen.net/vs-marketplace/i/ssmi.after-dark)](https://marketplace.visualstudio.com/items?itemName=ssmi.after-dark)
 [![Installs](https://badgen.net/vs-marketplace/rating/ssmi.after-dark)](https://marketplace.visualstudio.com/items?itemName=ssmi.after-dark)
 
