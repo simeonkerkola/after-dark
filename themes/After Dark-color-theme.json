@@ -3,6 +3,7 @@
   "type": "dark",
   "semanticHighlighting": true,
   "semanticTokenColors": {
+   "parameter": "#e8c37d",
     "function": {
       "foreground": "#53c6ba"
     },
@@ -31,7 +32,8 @@
     "activityBar.background": "#0E131B",
     "badge.background": "#53c6ba",
     "badge.foreground": "#0E131B",
-    "button.background": "#0E131B",
+    "button.background": "#53c6bad5",
+    "button.foreground": "#0E131B",
     "debugToolBar.background": "#0E131Bd2",
     "debugToolBar.border": "#b38098",
     "dropdown.background": "#131c2a",
@@ -125,7 +127,7 @@
     "editorGutter.modifiedBackground": "#88abf9d5",
     "editorGutter.addedBackground": "#98c379",
     "editorGutter.deletedBackground": "#ba7bcc",
-    "settings.checkboxForeground": "#ba7bcc",
+    "settings.checkboxForeground": "#7ecec6",
     "settings.modifiedItemIndicator": "#88abf9",
     "settings.checkboxBorder": "#c8d1df",
     "editorBracketPairGuide.activeBackground1": "#ba7bcc",

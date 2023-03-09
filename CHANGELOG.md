@@ -2,6 +2,12 @@
 
 All notable changes to the "after-dark" extension will be documented in this file.
 
+## **1.6.3** - 2023 Mar 9
+
+### Changed
+
+- Add color for buttons. Fixed the issue [#14](https://github.com/simeonkerkola/after-dark/issues/14)
+
 ## **1.6.2** - 2022-5-21
 
 ### Changes

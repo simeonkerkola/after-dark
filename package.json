@@ -11,6 +11,10 @@
   "engines": {
     "vscode": "^1.25.0"
   },
+  "scripts": {
+    "publish:vsmarket": "vsce publish",
+    "publish:openvs": ""
+  },
   "keywords": [
     "React",
     "Clojure",
@@ -39,5 +43,8 @@
         "path": "/themes/After Dark-color-theme-noitalic.json"
       }
     ]
+  },
+  "devDependencies": {
+    "react": "^18.2.0"
   }
 }

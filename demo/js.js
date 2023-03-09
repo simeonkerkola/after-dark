@@ -5,7 +5,7 @@ async function fuu() {
 }
 
 fuu.then((res) => {
-  console.log("bar");
+  console.log("bar", res);
 });
 
 const hello = "I am never used";

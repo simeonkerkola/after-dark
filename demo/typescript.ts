@@ -1,6 +1,7 @@
 import { NgModule } from "@angular/core";
 import { BrowserModule } from "@angular/platform-browser";
 import { FormsModule } from "@angular/forms";
+import react, { Component } from 'react'
 
 import { AppComponent } from "./app.component";
 
@@ -18,8 +19,11 @@ interface WhatEver {
   type: string;
   func: () => void;
   magic?: string;
+  obj: {
+    item:string
+  }
 }
-type SomeType = {
+type SomeType<T> = {
   prop: Boolean;
   another: string;
 };
@@ -43,11 +47,15 @@ const a = {
   },
 };
 
-let funcc = (someThings: WhatEver) => {
+let funcc = (someThings: WhatEver,anyType:any) => {
   console.log(someThings.type);
+  console.log(someThings.obj.item);
   console.log(someThings.typee);
+  console.log(anyType.asd)
   console.log(someThings.func((((((((((((())))))))))))));
 };
+
+
 
 funcc({ type: "adsf", count: 2 });
 
